@@ -1,0 +1,4 @@
+namespace aaa
+{
+void foo();
+}

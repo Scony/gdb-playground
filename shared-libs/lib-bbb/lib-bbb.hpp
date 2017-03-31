@@ -1,0 +1,4 @@
+namespace bbb
+{
+void foo();
+}
