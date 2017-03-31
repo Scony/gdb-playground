@@ -1,3 +1,4 @@
+Specify input in gdb runtime:
 ```bash
 $ make sepsym
 $ gdb
@@ -6,6 +7,7 @@ $ gdb
 (gdb) symbol-file main.debug
 ```
 
+Specify input as gdb arguments:
 ```bash
-gdb -s ./main.debug -e ./main.out -c core
+$ gdb -s ./main.debug -e ./main.out -c core
 ```
